@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "mqtt_bridge"
+version = "0.1.0"
+description = ""
+authors = ["CommandReverse <jelted@hotmail.nl>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+paho-mqtt = "^1.5.0"
+python-dotenv = "^0.14.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+flake8 = "^2.1.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
